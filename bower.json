@@ -1,0 +1,27 @@
+{
+  "name": "unilab-survey",
+  "authors": [
+    "altusgerona <alecgerona@gmail.com>"
+  ],
+  "description": "unilab ad test",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "animate.css": "^3.5.2",
+    "Sortable": "sortablejs#^1.5.1",
+    "firebase": "^4.1.1",
+  },
+  "devDependencies": {
+    "moment-timer": "^1.1.5"
+  }
+}

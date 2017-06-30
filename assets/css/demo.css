@@ -1,0 +1,207 @@
+.brand-logo {
+    width: 200px !important;
+    height: 75px !important;
+}
+
+#notInterested,
+#notInterested2 {
+    margin-right: 53%;
+}
+
+.text-input {
+    margin-left: 6%;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 300;
+    src: url('roboto-font/Roboto-Light.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: url('roboto-font/Roboto-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 500;
+    src: url('roboto-font/Roboto-Medium.ttf');
+}
+
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: url('roboto-font/Roboto-Bold.ttf');
+}
+
+.likert {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.likert-text {
+    width: 100px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.green-bg {
+    background: green;
+}
+
+.likert-img {
+    width: 100px !important;
+    height: 100px !important;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.disabled-anchor {
+    pointer-events: none;
+    cursor: default;
+}
+
+.gallery> img {
+    height: 145px;
+    width: 210px;
+    transition: all .2s ease-in-out;
+    padding: 5px;
+}
+
+img.emotion-img {
+    height: 150px;
+    width: 130px;
+}
+
+.gallery> img:hover {
+    transform: scale(1.2);
+}
+
+.gallery {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.gallery {
+    float: left;
+    text-align: center;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.ad-reel {
+    text-align: center;
+}
+
+td,
+th {
+    text-align: center;
+}
+
+.checkbox-lite,
+.radio-lite {
+    transform: scale(1.5);
+}
+
+.center-button {
+    text-align: center;
+}
+
+.optionRadio,
+.inputAnswer {
+    padding-left: 25px;
+}
+
+.textarea {
+    resize: none;
+    margin-left: 30px;
+}
+
+.sexRadio {
+    padding-left: 25px;
+}
+
+.question {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.radio-up {
+    margin-top: 10px !important;
+}
+
+@media (min-width: 992px) {
+    .typo-line {
+        padding-left: 140px;
+        margin-bottom: 40px;
+        position: relative;
+    }
+    .typo-line .category {
+        transform: translateY(-50%);
+        top: 50%;
+        left: 0px;
+        position: absolute;
+    }
+}
+
+#map {
+    position: relative;
+    width: 100%;
+    height: calc(100% - 60px);
+    margin-top: 70px;
+}
+
+.places-buttons .btn {
+    margin-bottom: 30px
+}
+
+.space-70 {
+    height: 70px;
+    display: block;
+}
+
+.tim-row {
+    margin-bottom: 20px;
+}
+
+.tim-typo {
+    padding-left: 25%;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+.tim-typo .tim-note {
+    bottom: 10px;
+    color: #c0c1c2;
+    display: block;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 13px;
+    left: 0;
+    margin-left: 20px;
+    position: absolute;
+    width: 260px;
+}
+
+.tim-row {
+    padding-top: 50px;
+}
+
+.tim-row h3 {
+    margin-top: 0;
+}
